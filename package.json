@@ -1,0 +1,19 @@
+{
+  "name": "watersensormockup",
+  "version": "1.0.0",
+  "description": "A water sensor mockup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aggeloz/WaterSensorMockup.git"
+  },
+  "author": "Aggelos Vogiatzis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aggeloz/WaterSensorMockup/issues"
+  },
+  "homepage": "https://github.com/Aggeloz/WaterSensorMockup#readme"
+}
