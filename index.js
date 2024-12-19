@@ -33,6 +33,7 @@ function measurement(){
 
 ws.on('open', () => {
     console.log('Connected to the server');
+    // ws.send(measurement());
     setInterval(() => {
         ws.send(measurement());
     }, 2000);

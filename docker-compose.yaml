@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mock-sensor:
+    # hostname: mock-sensor
+    container_name: mock-sensor
+    image: mock-sensor:latest
+    network_mode: "host"
+    restart: on-failure #always
+    build: 
+      context: .
+    # networks:
+    #   - pureaqua_network
+    # expose:
+    #   - 4443
+    # ports:
+    #   - "4443:4443"
+
+# networks:
+#   pureaqua_network:
+#     external: true
